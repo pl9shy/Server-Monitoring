@@ -1,0 +1,14 @@
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.AssemblyInfoInputs.cache
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.AssemblyInfo.cs
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.csproj.CoreCompileInputs.cache
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\bin\Debug\net8.0\Server Monitoring.exe
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\bin\Debug\net8.0\Server Monitoring.deps.json
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\bin\Debug\net8.0\Server Monitoring.runtimeconfig.json
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\bin\Debug\net8.0\Server Monitoring.dll
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\bin\Debug\net8.0\Server Monitoring.pdb
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.dll
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\refint\Server Monitoring.dll
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.pdb
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.genruntimeconfig.cache
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\ref\Server Monitoring.dll

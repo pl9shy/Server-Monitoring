@@ -1,0 +1,10 @@
+77.88.44.55, yandex.ru
+142.250.74.78, google.com
+217.69.139.202, mail.ru
+64.233.161.93, youtube.com
+140.82.121.3, github.com
+157.240.205.60, web.whatsapp.com
+217.20.155.13, ok.ru
+104.18.22.208, genius.com
+104.26.7.183, cq.ru
+62.217.160.2, dzen.ru
