@@ -12,3 +12,4 @@ c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\ne
 c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.pdb
 c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.genruntimeconfig.cache
 c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\ref\Server Monitoring.dll
+c:\Users\neoww\Desktop\Folder\Work\CSharpProjects\Server Monitoring\obj\Debug\net8.0\Server Monitoring.sourcelink.json

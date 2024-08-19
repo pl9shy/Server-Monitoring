@@ -1,5 +1,6 @@
 ﻿using System.Net.NetworkInformation;
 using System.Timers;
+using System.Diagnostics;
 
 class ServerMonitor
 {   
@@ -10,6 +11,12 @@ class ServerMonitor
     
     static void Main(string[] args)
     {
+        string logPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "serverMonitoringLog.txt");
+        Console.WriteLine($"Записано в: {logPath}");
+        TextWriterTraceListener logFile = new(File.CreateText(logPath));
+        Trace.Listeners.Add(logFile);
+        Trace.AutoFlush = true;
+        
         string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
         string fileName = "ServersList.txt"; // Имя файла, где хранятся IP серверов
         string filePath = Path.Combine(directoryPath, fileName);
@@ -27,6 +34,7 @@ class ServerMonitor
     }
     private static void MonitorServers(string[] lines)
     {
+        
         foreach (string line in lines)
         {
             string[] info = line.Split(", ");
@@ -42,6 +50,7 @@ class ServerMonitor
                 failedPings[serverName] = 0;
             }
 
+            DateTime currentData = DateTime.Now;
             bool activity = new Ping().Send(ipAddress).Status == IPStatus.Success;
 
             totalPings++;
@@ -50,13 +59,18 @@ class ServerMonitor
             {
                 case true:
                     successfulPings[serverName]++;
-                    Console.WriteLine($"Сервер {serverName} ({ipAddress}) в сети.");
+                    string successfulMessage = $"Сервер {serverName} ({ipAddress}) в сети.";
+                    Console.WriteLine(successfulMessage);
+                    Trace.TraceInformation($"{successfulMessage} [{currentData}]");
                     break;
 
                 case false:
                     failedPings[serverName]++;
-                    Console.WriteLine($"Сервер {serverName} ({ipAddress}) недоступен.");
+                    string failedMessage = $"Сервер {serverName} ({ipAddress}) недоступен.";
+                    Console.WriteLine(failedMessage);
+                    Trace.TraceWarning($"{failedMessage} [{currentData}]");
                     break;
+                    
             }
             
             int serverTotalPings = successfulPings[serverName]+failedPings[serverName];
@@ -70,7 +84,7 @@ class ServerMonitor
                 successChance = 0;
             }
             
-            Console.WriteLine($"Доступность {serverName}: {successChance:F2} %. ({successfulPings[serverName]}/{serverTotalPings})");
+            Console.WriteLine($"Доступность: {successChance:F2} %. ({successfulPings[serverName]}/{serverTotalPings})");
             Console.WriteLine("------------------------");
         }
     }
