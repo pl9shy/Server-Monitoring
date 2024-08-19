@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj": {}
+    "c:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj": {}
   },
   "projects": {
-    "C:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj": {
+    "c:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj",
+        "projectUniqueName": "c:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj",
         "projectName": "Server Monitoring",
-        "projectPath": "C:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj",
+        "projectPath": "c:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\Server Monitoring.csproj",
         "packagesPath": "C:\\Users\\neoww\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\obj\\",
+        "outputPath": "c:\\Users\\neoww\\Desktop\\Folder\\Work\\CSharpProjects\\Server Monitoring\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\neoww\\AppData\\Roaming\\NuGet\\NuGet.Config"
